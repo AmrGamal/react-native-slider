@@ -567,7 +567,7 @@ export default class Slider extends PureComponent {
 
     if (!thumbImage) return;
 
-    return <Image source={thumbImage} style={thumbImageStyle} />;
+    return <Image source={thumbImage} resizeMode="contain" style={thumbImageStyle} />;
   };
 }
 
